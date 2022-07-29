@@ -694,6 +694,10 @@
             "discard": "Discard this card"
         },
         "settingMenu": {
+            "tour": {
+                "name": "Launch tour tutorial ",
+                "hint": "If checked, the tour tutorial will start after your world loads."
+            },
             "welcome": {
                 "name": "Display the Welcome Message",
                 "hint": "If checked, the welcome message will pop up after your world loads."

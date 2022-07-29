@@ -12,6 +12,15 @@ export function registerTorgSettings() {
         type: Boolean,
         default: true, // The default value for the setting
     });
+    game.settings.register("torgeternity", "Tour", {
+        // game.setting.register("NameOfTheModule", "VariableName",
+        name: "torgeternity.settingMenu.tour.name", // Register a module setting with checkbox
+        hint: "torgeternity.settingMenu.tour.hint", // Description of the settings
+        scope: "world", // This specifies a client-stored setting
+        config: true, // This specifies that the setting appears in the configuration view
+        type: Boolean,
+        default: true, // The default value for the setting
+    });
 
     //---------Set up Cards
     game.settings.register("torgeternity", "setUpCards", {
@@ -138,7 +147,7 @@ export function registerTorgSettings() {
     });
 
     //Hidden setting to determine whether module image updates are needed after migrating system images on intial update
-    game.settings.register("torgeternity", "moduleImageUpdate",{
+    game.settings.register("torgeternity", "moduleImageUpdate", {
         scope: "world",
         config: false,
         type: Boolean,

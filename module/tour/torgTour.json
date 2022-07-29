@@ -1,0 +1,45 @@
+{
+    "title": "Torg-system-tour",
+    "description": "a quick tour to show you specificities of the torg system",
+    "canBeResumed": true,
+    "display": true,
+    "steps": [{
+            "id": "external-links",
+            "selector": "img#logo",
+            "title": "external links",
+            "content": "By clicking on the image logo, you will open a window with usefull link"
+        },
+        {
+            "id": "rules reference",
+            "selector": "button.one",
+            "title": "rules references",
+            "content": "For exemple you can open the rule reference website within your foundry session"
+        },
+        {
+            "id": "control buttons",
+            "selector": "li[data-control=\"TORG\"]",
+            "title": "special Torg buttons",
+            "content": "this control will allow you to access special torg buttons"
+        },
+
+        {
+            "id": "setting",
+            "selector": "a[data-tab=\"settings\"]",
+            "title": "accessing settings",
+            "content": "you can now access settings"
+        },
+        {
+            "id": "config",
+            "selector": "button[data-action=\"configure\"]",
+            "title": "configuration window",
+            "content": "this will open the configuration window"
+        },
+        {
+            "id": "system config",
+            "selector": "a[data-tab=\"system\"]",
+            "title": "system setting",
+            "content": "in this tab you will access the system options"
+        }
+
+    ]
+}
